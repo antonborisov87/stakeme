@@ -1,15 +1,29 @@
 import React from 'react'
 import styles from './Nodes.module.css'
 
+const solanaLink = 'https://solanabeach.io/validator/HHEq7d3vyNXfh4gMgze8ikZabWeNpjbHFVrKvKpJJcAa'
+const minaLink = 'https://mina.staketab.com/validator/B62qnMmqkKptkyQPvYmCAAEnbNxjjRkpFZJSJLBgAuDL2bURwZgXe55'
+const elixxirLink = 'https://google.com'
+
 const Nodes = () => {
     return (
         <div className={styles.mainContainer}>
-            My current nodes in mainnet:
-
-            solana: https://solanabeach.io/validator/HHEq7d3vyNXfh4gMgze8ikZabWeNpjbHFVrKvKpJJcAa
-            mina: https://mina.staketab.com/validator/B62qnMmqkKptkyQPvYmCAAEnbNxjjRkpFZJSJLBgAuDL2bURwZgXe55
-            elixxir: через 10 дней дополню
-        </div>
+            <div className={styles.title}>
+                My current nodes in mainnet:
+            </div>
+            <div className={styles.row}>
+                <div className={styles.projectName}>solana: </div>
+                <a className={styles.projectLink} href={solanaLink}>{solanaLink}</a>
+            </div>
+            <div className={styles.row}>
+                <div className={styles.projectName}>mina: </div>
+                <a className={styles.projectLink} href={minaLink}>{minaLink}</a>
+            </div>
+            <div className={styles.row}>
+                <div className={styles.projectName}>elixxir: </div>
+                <a className={styles.projectLink} href={elixxirLink}>{elixxirLink}</a>
+            </div>
+        </div >
     )
 }
 

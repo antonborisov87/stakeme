@@ -4,9 +4,9 @@ import styles from './Contacts.module.css'
 const Contacts = () => {
     return (
         <div className={styles.mainContainer}>
-            Contacts:
-            Telegram: https://t.me/antonbelarus87
-            Discord: RodgerVer#0492
+            <div className={styles.title}>Contacts:</div>
+            <a className={styles.link} href='https://t.me/antonbelarus87'>Telegram</a>
+            <a className={styles.link} href='https://discordapp.com/users/436540629049147392/'>Discord</a>
         </div>
     )
 }
