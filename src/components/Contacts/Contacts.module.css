@@ -1,6 +1,6 @@
 .mainContainer {
-    display: flex;
-    flex-direction: column;
+   /*  display: flex;
+    flex-direction: column; */
 }
 
 .title {
@@ -10,6 +10,7 @@
 
 .link {
     padding: 2px 0;
+    width: min-content;
 }
 
 .contactsContainer {
