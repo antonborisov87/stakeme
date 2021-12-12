@@ -1,12 +1,16 @@
 html {
   margin: 0px;
   height: 100%;
+
+  background-image: url("./assets/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {
   margin: 0px;
-  min-height: 100%;
-  background-color: #223843;
+  /* background-color: #223843; */
 }
 
 a:link {
