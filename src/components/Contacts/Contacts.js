@@ -5,8 +5,10 @@ const Contacts = () => {
     return (
         <div className={styles.mainContainer}>
             <div className={styles.title}>Contacts:</div>
-            <a className={styles.link} href='https://t.me/antonbelarus87'>Telegram</a>
-            <a className={styles.link} href='https://discordapp.com/users/436540629049147392/'>Discord</a>
+            <div className={styles.contactsContainer}>
+                <a className={styles.link} href='https://t.me/antonbelarus87'>@antonbelarus87</a>
+                <a className={styles.link} href='https://discordapp.com/users/436540629049147392/'>RodgerVer#0492</a>
+            </div>
         </div>
     )
 }

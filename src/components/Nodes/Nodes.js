@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Nodes.module.css'
 
-const solanaLink = 'https://solanabeach.io/validator/HHEq7d3vyNXfh4gMgze8ikZabWeNpjbHFVrKvKpJJcAa'
+const solanaLink = 'https://www.validators.app/?q=7jmCjQt2D5MVvSz7NhpHLCXGsh8Mu3qeBbA4LJAf3Xsd&network=mainnet&order=&refresh=&commit=Search'
 const minaLink = 'https://mina.staketab.com/validator/B62qnMmqkKptkyQPvYmCAAEnbNxjjRkpFZJSJLBgAuDL2bURwZgXe55'
 const elixxirLink = 'https://google.com'
 
