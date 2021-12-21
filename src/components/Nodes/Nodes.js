@@ -3,7 +3,7 @@ import styles from './Nodes.module.css'
 
 const solanaLink = 'https://www.validators.app/?q=7jmCjQt2D5MVvSz7NhpHLCXGsh8Mu3qeBbA4LJAf3Xsd&network=mainnet&order=&refresh=&commit=Search'
 const minaLink = 'https://mina.staketab.com/validator/B62qnMmqkKptkyQPvYmCAAEnbNxjjRkpFZJSJLBgAuDL2bURwZgXe55'
-const elixxirLink = 'https://google.com'
+const elixxirLink = 'https://dashboard.xx.network/nodes/lxTDUBG71bKIQkunKHba58-vUxy0rMvxdOvjOsphIW0C'
 
 const Nodes = () => {
     return (
