@@ -18,3 +18,9 @@
     flex-direction: column;
     padding-left: 10px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
