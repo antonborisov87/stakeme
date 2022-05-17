@@ -6,7 +6,7 @@ const Participations = () => {
         <div className={styles.mainContainer}>
             Participation in testnets as a validator:
 
-            mina, avalanche, massa, nucypher, KEEP, casper Labs, near, solana, stafi, crust,  compound,  elixxir, hopr, kira, graph, etc.
+            mina, avalanche, massa, nucypher, KEEP, casper Labs, near, solana, stafi, crust,  compound,  elixxir, hopr, kira, graph, aptos, starknet, archway, celestia, forta, aleo, stratos, neon labs, forta, etc.
         </div>
     )
 }
